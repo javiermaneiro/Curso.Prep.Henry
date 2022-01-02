@@ -1,0 +1,29 @@
+* Objetos
+	* Propiedades
+	* Métodos
+	* Bucle `for…in`
+	* Notación de puntos vs notación de corchetes* Objetos
+
+los objetos son similares a los arreglos en el sentido que nos sirven para almacenar datos, 
+pero con la diferencia de que en los arreglos el indice está establecido y en los arreglos lo elegimos
+nosotros y no tiene orden alguno.
+usamos clave:valor, dentro del objeto tenemos un indice(clave o propiedad) y valor (dato)
+el valor puede ser cualquier tipo de dato, incluyendo funciones, matriz o incluso otro objeto
+
+se accede muy parecido a los arrgleos
+nombre_del_objeto['nombre_de_la_clave'] 
+o
+nombre_del_objeto.nombre_de_la_clave
+
+le llamaremos propiedades a las claves o al valor de índice de los objetos
+
+metodos se les llama a las funciones que estan dentro de un objeto
+
+let-in
+recorre cada clave del objeto hasta iterar todas.
+podemos usarlo para que nos muestre en orden las cosas
+
+this
+se usa para hacer referencia a la clave del objeto en la que estamos trabajando y nos 
+sirve para no repetir comandos y a la vez para que al modificar uno se modifiquen los demas
+

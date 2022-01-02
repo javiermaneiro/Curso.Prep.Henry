@@ -1,0 +1,23 @@
+clases
+las clases son las plantillas para armar objetos, comienzan con letra mayuscula por protocolo
+nos ayudan con los errores de tipeo, agilizamos el trabajo
+
+prototype
+seria como una plantilla pero para las funciones o metodos
+las creamos una vez y luego las invocamos usando el objeto.proto 
+
+ejemplos
+function Combustible(tipo, grado, color) {
+    this.tipo = tipo,
+    this.grado = grado,
+    this.color = color,
+}
+
+ahora el objeto:
+var super = new Combustible(nafta, 2, azul);
+var Euro = new Combustible(diesel, 3, verde);
+
+prototype
+Combustible.prototype.mostrar = function () { 
+    return 'Yo cargo ' + this.tipo + ' color ' + this color
+}

@@ -1,0 +1,8 @@
+&&, es simple, funciona como una "y", nos devuelve la expresion si las 2 son verdaderas
+3 > 2 && 7 < 9 ==> true
+
+||, simple tambien, funciona como una "o", nos devuelve si al menos una es verdaderas
+3 > 4 || 7 < 9 ==> true
+
+! not, negación, nos devuelve el opuesto
+(!false) true       (!(1 === 1)) false

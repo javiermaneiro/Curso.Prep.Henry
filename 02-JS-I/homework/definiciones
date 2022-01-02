@@ -1,0 +1,15 @@
+las variables son como una caja de seguridad donde guardamos algo, algun dato para usarlo despues, 
+puede ser numero, una cadena de caracteres (string), un booleano...
+
+los strings son cadenas de caracteres, una letras, numeros, simbolos, se limitan con '' o ""
+
+funciones: son objetos que se usan para calcular, ordenar, cambiar las funciones
+los argumentos que agregamos a las funciones son las variables con las que juegan
+estos argumentos pueden ser varios y se colocan separados por coma y entre parentesis (x, y, p)
+
+return: es la forma en que los datos salgan de la función. solo se puede acceder a lo que devuelve 
+la funcion. cuando la fnc ejecuta el retorno se detiene y no se sigue ejecutando.
+el console.log dentro de la funcion nos arroja undefined
+
+declaraciones if : es una forma en que la función verifique si algo es verdadero o falso,
+ejecuta si es verdadero o avanza sino
