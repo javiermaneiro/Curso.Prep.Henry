@@ -1,17 +1,28 @@
 h1 {
-    color:red;
+    margin: 0 auto;
+    color:rgb(177, 19, 19);
 }
 img {
+    margin: 0 auto;
     width: 400px;
 }
 #thirDiv {
+    max-width: 600px;
+    margin: 0 auto; 
     height: 600px;
     width: 500px;
-    background:rgb(206, 201, 201);
+    background:rgb(139, 197, 219);
     padding: 50px;
-    border: 2px solid rgb(95, 86, 86);
+    border: 2px solid rgb(3, 8, 8);
 } 
 #spanId {
+    margin: 0 auto;
     font-size: 18px;
     margin: 50px;
+}
+body {
+    max-width: 600px;
+    margin: 0 auto; 
+    background: url(fondo.jpg);
+    background-size: 100%;
 }
